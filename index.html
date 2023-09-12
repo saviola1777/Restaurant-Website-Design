@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Food Website Design</title>
+   <link rel="icon" type="image/png" sizes="16x16" href="image/favicon-16x16.png">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+   <link rel="stylesheet" href="css/style.css">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+
+</head>
+
+<body>
+
+   <header>
+      <a href="#" class="logo"><i class="fa-solid fa-utensils"></i></i>Dubno</a>
+      <nav class="navbar">
+
+         <a href="#home" class="active">home</a>
+         <a href="#disher">disher</a>
+         <a href="#about">about</a>
+         <a href="#menu">menu</a>
+         <a href="#review">review</a>
+         <a href="#order">order</a>
+      </nav>
+
+      <div class="icons">
+         <i class="fa-solid fa-bars" id="menu-bars"></i>
+         <i class="fa-solid fa-magnifying-glass" id="search-icon"></i>
+         <a href="#" class="fa-solid fa-heart"></a>
+         <a href="#" class="fa-solid fa-cart-shopping"></a>
+      </div>
+   </header>
+
+   <!-- search form -->
+   <form action="" id="search-form">
+      <input type="search" id="search-box" placeholder="search here....">
+      <label for="search-box" class="fas fa-search"></label>
+      <i class="fas fa-times" id="close"></i>
+   </form>
+
+   <!-- section home -->
+
+   <section class="home" id="home">
+      <div class="swiper mySwiper home-slider">
+         <div class="swiper-wrapper wrapper">
+
+            <div class="swiper-slide slide">
+               <div class="content">
+                  <span>our special dish</span>
+                  <h2>Pizza Napoletana</h2>
+                  <p> The most symbolic pizza in Italy, there are two types: marinara and Margherita. Neapolitan pizza is usually small, up to 30 cm in diameter, with a thin dough base and characteristic fluffy sides with a "leopard" crust.</p>
+                  <a href="#" class="btn">order now</a>
+               </div>
+               <div class="image">
+                  <img src="image/pizza-7961609_1280.jpg" alt="pancakes">
+               </div>
+            </div>
+
+            <div class="swiper-slide slide">
+               <div class="content">
+                  <span>our special dish</span>
+                  <h2>dirtbags</h2>
+                  <p>Ukrainian Polissia is famous for its potato crops and dishes made from it. An annual festival dedicated to this dish is held here. And you won't be able to try any kind of dumplings: with meat, with cheese, with mushrooms, and with cottage cheese.</p>
+                  <a href="#" class="btn">order now</a>
+
+               </div>
+               <div class="image">
+                  <img src="image/deruny.jpg" alt="pancakes">
+               </div>
+            </div>
+
+            <div class="swiper-slide slide">
+               <div class="content">
+                  <span>our special dish</span>
+                  <h2>Fried chicken</h2>
+                  <p>A light dish is perfect for everyday, festive, and romantic menus. It can be used both alone and in combination with potatoes, salads, vegetables, rice and even some fruits. A glass of table dry red wine gives the fried chicken a special piquancy. An amazing combination, and so perfect for a romantic dinner, isn't it?</p>
+                  <a href="#" class="btn">order now</a>
+
+               </div>
+               <div class="image">
+                  <img src="image/appetite-1239074_1280.jpg" alt="pancakes">
+               </div>
+            </div>
+
+         </div>
+         <div class="swiper-button-next"></div>
+         <div class="swiper-pagination"></div>
+         <div class="swiper-button-prev"></div>
+
+      </div>
+
+   </section>
+
+   <!-- section disher -->
+
+   <section class="disher" id="disher">
+      <h3 class="sub-heading">our disher</h3>
+      <h1 class="heading">popular disher</h1>
+
+      <div class="box-container">
+         <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src='image/salat-tsezar.jpg' />
+            <h3>salat tsezar</h3>
+            <div class="stars">
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>$5.99</span>
+            <a href="#" class="btn">add to cart</a>
+         </div>
+
+         <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src='image/taco.jpg' />
+            <h3>taco</h3>
+            <div class="stars">
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>$7.99</span>
+            <a href="#" class="btn">add to cart</a>
+         </div>
+
+         <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src='image/sushi.jpg' />
+            <h3>sushi</h3>
+            <div class="stars">
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>$15.99</span>
+            <a href="#" class="btn">add to cart</a>
+         </div>
+
+         <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src='image/hamburger.jpg' />
+            <h3>hamburger</h3>
+            <div class="stars">
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>$9.99</span>
+            <a href="#" class="btn">add to cart</a>
+         </div>
+      </div>
+
+   </section>
+
+   <!-- section disher end -->
+
+   <!-- about section start -->
+   <section class="about" id="about">
+      <h3 class="sub-heading">about us</h3>
+      <h1 class="heading">why choose us?</h1>
+      <div class="row">
+         <div class="image">
+            <img src="image/platter-2009590_1280.jpg" alt="">
+         </div>
+         <div class="content">
+            <h3>best food in this city</h3>
+            <p>Dubno-Place Of Deliciousness conquers with its sophistication in every detail: here, modern art has burst into the realm of the classics with a fresh wind to create just such an atmosphere that envelops you with its charm. The Provence style of the BBQ terrace, which combines simplicity, comfort and sophistication, encourages celebration in the circle of relatives and friends.               
+               The restaurant also offers a children's menu with tasty and healthy dishes.</p>
+            <p> The fusion menu in the "Dubno-Place" restaurant is a reinterpreted look at traditional dishes, and you can choose the perfect complement to your meal from the restaurant's extensive wine list.</p>
+            <div class="icon-container">
+               <div class="icons">
+                  <i class="fas fa-shipping-fast"></i>
+                  <span>free-delivery</span>
+               </div>
+               <div class="icons">
+                  <i class="fas fa-dollar-sign"></i>
+                  <span>easy-payments</span>
+               </div>
+               <div class="icons">
+                  <i class="fas fa-headset"></i>
+                  <span>24/7 servise</span>
+               </div>
+
+            </div>
+            <a href="#" class="btn">lear more</a>
+         </div>
+   </section>
+
+   <!-- section menu -->
+
+   <section class="menu" id="menu">
+
+      <h3 class="sub-heading">our menu</h3>
+      <h1 class="heading">today speciality</h1>
+
+      <div class="box-container">
+
+         <div class="box">
+            <div class="image">
+               <img src="image/borsh.jpg" alt="">
+               <a href="" class="fas fa-heart"></a>
+            </div>
+
+            <div class="content">
+               <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+               </div>
+               <h3>Borscht with donuts</h3>
+               <p>Tender veal, aromatic black donuts, smoked bacon and green onions. Served with sour cream.</p>
+               <p> Weight: 300/30 g.</p>
+               <a href="" class="btn"> add to cart</a>
+               <span class="price">12.99$</span>
+            </div>
+
+         </div>
+
+         <div class="box">
+            <div class="image">
+               <img src="image/buffalo.jpg" alt="">
+               <a href="" class="fas fa-heart"></a>
+            </div>
+
+            <div class="content">
+               <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+               </div>
+               <h3>Buffalo wings</h3>
+               <p>The tenderness of farm chicken is shaded by a spicy sauce with a slight sourness of tomatoes and a creamy honey aftertaste.</p>
+               <p>Weight: 230 g.</p>
+               <a href="" class="btn"> add to cart</a>
+               <span class="price">8.99$</span>
+            </div>
+
+         </div>
+
+         <div class="box">
+            <div class="image">
+               <img src="image/free.jpg" alt="">
+               <a href="" class="fas fa-heart"></a>
+            </div>
+
+            <div class="content">
+               <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+               </div>
+               <h3>French fries</h3>
+               <p>Picnic, office lunch, family dinner - crispy, evenly fried selected potatoes will be an excellent addition to the main dishes.</p>
+               <p>Weight: 150 g.</p>
+               <a href="" class="btn"> add to cart</a>
+               <span class="price">3.99$</span>
+            </div>
+
+         </div>
+
+         <div class="box">
+            <div class="image">
+               <img src="image/chizkeyk.jpg" alt="">
+               <a href="" class="fas fa-heart"></a>
+            </div>
+
+            <div class="content">
+               <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+               </div>
+               <h3>cheesecake</h3>
+               <p>A delicate classic dessert made of cream cheese, cream and sour cream on a thin pillow of crispy biscuit.</p>
+               <p>Weight: 100 g.</p>
+               <a href="" class="btn"> add to cart</a>
+               <span class="price">5.99$</span>
+            </div>
+
+         </div>
+
+      </div>
+
+   </section>
+
+   <!-- section review -->
+
+   <section class="review" id="review">
+
+      <h3 class="sub-heading">customers review</h3>
+      <h1 class="heading">what they say</h1>
+
+      <div class="swiper  review-slider">
+         <div class="swiper-wrapper">
+            <div class="swiper-slide slide">
+               <i class="fas fa-quote-right"></i>
+               <div class="user">
+                  <img src="image/beanie-2562646_1280.jpg" alt="">
+                  <div class="user-info">
+                     <h3>max</h3>
+                     <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                     </div>
+                  </div>
+               </div>
+               <p>Quite atmospheric. The food is at the proper level. In this institution you can meet both an ordinary citizen and an official. Which speaks of a certain level.</p>
+            </div>
+
+            <div class="swiper-slide slide">
+               <i class="fas fa-quote-right"></i>
+               <div class="user">
+                  <img src="image/Maria.jpg" alt="">
+                  <div class="user-info">
+                     <h3>Maria </h3>
+                     <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                     </div>
+                  </div>
+               </div>
+               <p>An excellent restaurant, we dined here with friends, everything is atmospheric, the style is sustained, the dishes are very hearty and tasty</p>
+            </div>
+
+            <div class="swiper-slide slide">
+               <i class="fas fa-quote-right"></i>
+               <div class="user">
+                  <img src="image/olia.jpg" alt="">
+                  <div class="user-info">
+                     <h3>Nastya</h3>
+                     <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                     </div>
+                  </div>
+               </div>
+               <p>The quality of the dishes is just awesome, especially the potato pancakes and hodgepodge.</p>
+            </div>
+
+            <div class="swiper-slide slide">
+               <i class="fas fa-quote-right"></i>
+               <div class="user">
+                  <img src="image/sasha.jpg" alt="">
+                  <div class="user-info">
+                     <h3>Sasha Feniuk</h3>
+                     <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                     </div>
+                  </div>
+               </div>
+               <p>The interior and the service of the waiters are super! The menu is great!</p>
+            </div>
+
+            <div class="swiper-slide slide">
+               <i class="fas fa-quote-right"></i>
+               <div class="user">
+                  <img src="image/Natalia.jpg" alt="">
+                  <div class="user-info">
+                     <h3>Natalia</h3>
+                     <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                     </div>
+                  </div>
+               </div>
+               <p>A wide range of dishes for all tastes, but the menu is even too large, making it difficult to choose.</p>
+            </div>
+
+         </div>
+         <div class="swiper-pagination"></div>
+      </div>
+
+   </section>
+
+   <!-- order section -->
+   <section class="order" id="order">
+
+      <h3 class="sub-heading">order now</h3>
+      <h1 class="heading">free and fast</h1>
+
+      <form action="">
+         <div class="input-box">
+            <div class="input">
+               <span>your name</span>
+               <input type="text" placeholder="enter your name">
+            </div>
+
+            <div class="input">
+               <span>your number</span>
+               <input type="number" placeholder="enter your number">
+            </div>
+         </div>
+
+         <div class="input-box">
+            <div class="input">
+               <span>your order</span>
+               <input type="text" placeholder="enter food name">
+            </div>
+            <div class="input">
+               <span>additional food</span>
+               <input type="test" placeholder="extra with food">
+            </div>
+         </div>
+
+         <div class="input-box">
+            <div class="input">
+               <span>how much</span>
+               <input type="number" placeholder="how many orders">
+            </div>
+            <div class="input">
+               <span>date and time</span>
+               <input type="datetime-local" placeholder="enter your number">
+            </div>
+         </div>
+
+         <div class="input-box">
+            <div class="input">
+               <span>your address</span>
+               <textarea name="" id="" cols="30" rows="10" placeholder="enter your address"></textarea>
+            </div>
+            <div class="input">
+               <span>your message</span>
+               <textarea name="" id="" cols="30" rows="10" placeholder="enter your message"></textarea>
+            </div>
+         </div>
+<input type="submit" value="order now" class="btn">
+
+      </form>
+
+   </section>
+
+   <!-- section footer -->
+   <section class="footer" id="footer">
+      <div class="box-container">
+         <div class="box">
+            <h3>locations</h3>
+            <a href="#">dubno</a>
+            <a href="#">rivne</a>
+            <a href="#">kiev</a>
+            <a href="#">lutsk</a>
+            <a href="#">lviv</a>
+         </div>
+         <div class="box">
+            <h3>quick links</h3>
+            <a href="#">home</a>
+            <a href="#">disher</a>
+            <a href="#">about</a>
+            <a href="#">menu</a>
+            <a href="#">review</a>
+            <a href="#">order</a>
+         </div>
+         <div class="box">
+            <h3>contact info</h3>
+            <a href="#">+380 148 51 67</a>
+            <a href="#">+123-811-2452</a>
+            <a href="#">draganchuk1991@ukr.net</a>
+            <a href="#">dubno, ukraine - 356003</a>
+         </div>
+         <div class="box">
+            <h3>follow us</h3>
+            <a href="#">facebook</a>
+            <a href="#">twiter</a>
+            <a href="#">instagram</a>
+            <a href="#">linkedin</a>
+         </div>
+
+      </div>
+      <div class="credit">copyright @ 2023 by<span>Sasha Drahanchuk</span></div>
+   </section>
+
+
+
+   <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+   <script src="script.js"></script>
+</body>
+
+</html>
